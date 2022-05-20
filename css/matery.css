@@ -242,7 +242,6 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #0d89db 0%, #0d89db 100%);
-    opacity: 0.8  /* 透明效果 */
 }
 
 .text-color {
