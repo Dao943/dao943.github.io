@@ -5,34 +5,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo 发布文章, Hong Dao">
-    <meta name="description" content="前言了解Front-matter ，就是文章最上方分隔的区域，以下是定义参数	
+    <meta name="description" content="前言文章 Front-matter 介绍了解Front-matter ，就是文章最上方分隔的区域，以下是定义参数	
 
 
 
-参数
-描述
+配置选项
 默认值
+描述
 
-
-
-layout
-布局
-无
 
 
 title
-标题
-无
+Markdown 的文件标题
+文章标题，强烈建议填写此选项
 
 
 date
-建立日期
-文件建立日期
-
-
-updated
-更新日期
-文件更新日">
+文">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -547,14 +536,14 @@ updated
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    180
+                    561
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -574,57 +563,87 @@ updated
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>了解Front-matter ，就是文章最上方分隔的区域，以下是定义参数	</p>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="文章-Front-matter-介绍"><a href="#文章-Front-matter-介绍" class="headerlink" title="文章 Front-matter 介绍"></a>文章 Front-matter 介绍</h2><p>了解Front-matter ，就是文章最上方分隔的区域，以下是定义参数	</p>
 <table>
 <thead>
 <tr>
-<th align="left">参数</th>
-<th align="left">描述</th>
-<th align="left">默认值</th>
+<th align="center"><strong>配置选项</strong></th>
+<th align="center"><strong>默认值</strong></th>
+<th align="center"><strong>描述</strong></th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">layout</td>
-<td align="left">布局</td>
-<td align="left">无</td>
+<td align="center">title</td>
+<td align="center">Markdown 的文件标题</td>
+<td align="center">文章标题，强烈建议填写此选项</td>
 </tr>
 <tr>
-<td align="left">title</td>
-<td align="left">标题</td>
-<td align="left">无</td>
+<td align="center">date</td>
+<td align="center">文件创建时的日期时间</td>
+<td align="center">发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
 </tr>
 <tr>
-<td align="left">date</td>
-<td align="left">建立日期</td>
-<td align="left">文件建立日期</td>
+<td align="center">author</td>
+<td align="center">根 _config.yml 中的 author</td>
+<td align="center">文章作者</td>
 </tr>
 <tr>
-<td align="left">updated</td>
-<td align="left">更新日期</td>
-<td align="left">文件更新日期</td>
+<td align="center">img</td>
+<td align="center">featureImages 中的某个值</td>
+<td align="center">文章特征图，推荐使用图床</td>
 </tr>
 <tr>
-<td align="left">comments</td>
-<td align="left">开启文章的评论功能</td>
-<td align="left">true</td>
+<td align="center">top</td>
+<td align="center">true</td>
+<td align="center">推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章</td>
 </tr>
 <tr>
-<td align="left">tags</td>
-<td align="left">标签（不适用于分页）</td>
-<td align="left">无</td>
+<td align="center">cover</td>
+<td align="center">false</td>
+<td align="center">表示该文章是否需要加入到首页轮播封面中</td>
 </tr>
 <tr>
-<td align="left">categories</td>
-<td align="left">分类（不适用于分页）</td>
-<td align="left">无</td>
+<td align="center">coverImg</td>
+<td align="center">无</td>
+<td align="center">表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td>
 </tr>
 <tr>
-<td align="left">permalink</td>
-<td align="left">覆盖文章网址</td>
-<td align="left">无</td>
+<td align="center">password</td>
+<td align="center">无</td>
+<td align="center">文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项</td>
+</tr>
+<tr>
+<td align="center">toc</td>
+<td align="center">true</td>
+<td align="center">是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项</td>
+</tr>
+<tr>
+<td align="center">mathjax</td>
+<td align="center">false</td>
+<td align="center">是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行</td>
+</tr>
+<tr>
+<td align="center">summary</td>
+<td align="center">无</td>
+<td align="center">文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td>
+</tr>
+<tr>
+<td align="center">categories</td>
+<td align="center">无</td>
+<td align="center">文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
+</tr>
+<tr>
+<td align="center">tags</td>
+<td align="center">无</td>
+<td align="center">文章标签，一篇文章可以多个标签</td>
+</tr>
+<tr>
+<td align="center">reprintPolicy</td>
+<td align="center">cc_by</td>
+<td align="center">文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
 </tr>
 </tbody></table>
-<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><h3 id="1-清除本地缓存"><a href="#1-清除本地缓存" class="headerlink" title="1.清除本地缓存"></a>1.清除本地缓存</h3><pre class=" language-复制"><code class="language-复制">hexo clean
+<h3 id="1-清除本地缓存"><a href="#1-清除本地缓存" class="headerlink" title="1.清除本地缓存"></a>1.清除本地缓存</h3><pre class=" language-复制"><code class="language-复制">hexo clean
 </code></pre>
 <h3 id="2-生成静态html文件"><a href="#2-生成静态html文件" class="headerlink" title="2.生成静态html文件"></a>2.生成静态html文件</h3><pre class=" language-复制"><code class="language-复制">hexo g
 </code></pre>
@@ -1274,7 +1293,7 @@ updated
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.2k</span>
+                        class="white-color">1.6k</span>
             
             
             
