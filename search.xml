@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>Windows 命令</title>
+      <link href="/posts/1605351078.html"/>
+      <url>/posts/1605351078.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><a href="https://baike.baidu.com/item/dos/32025">DOS</a></li><li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4/9684689">CMD</a></li></ul><h2 id="DOS-命令"><a href="#DOS-命令" class="headerlink" title="DOS 命令"></a>DOS 命令</h2><h3 id="内部命令"><a href="#内部命令" class="headerlink" title="内部命令"></a>内部命令</h3><table><thead><tr><th align="center">命令</th><th align="center">参数</th><th align="center">含义</th></tr></thead><tbody><tr><td align="center">DIR</td><td align="center">/W、/P、/A、/S</td><td align="center">显示指定路径上所有文件或目录的信息</td></tr><tr><td align="center">CD</td><td align="center">CD 路径</td><td align="center">进入指定目录，”CD..”为返回到上一层目录</td></tr><tr><td align="center">MD</td><td align="center">MD 盘符 路径</td><td align="center">建立目录</td></tr><tr><td align="center">RD</td><td align="center">RD 盘符 路径</td><td align="center">删除目录</td></tr><tr><td align="center">COPY</td><td align="center">COPY 源目录或文件 目的目录或文件</td><td align="center">拷贝文件</td></tr><tr><td align="center">DEL</td><td align="center">DEL 盘符 路径 文件名 参数</td><td align="center">删除文件</td></tr><tr><td align="center">SYS</td><td align="center">SYS 源盘符 目的盘符</td><td align="center">传递系统文件命令</td></tr></tbody></table><h3 id="外部命令"><a href="#外部命令" class="headerlink" title="外部命令"></a>外部命令</h3><table><thead><tr><th align="center">命令</th><th align="center">参数</th><th align="center">含义</th></tr></thead><tbody><tr><td align="center">EDIT</td><td align="center">EDIT 盘符 文件名</td><td align="center">简单的编辑软件，可以用它来编辑一些程序和批处理文件</td></tr><tr><td align="center">FORMAT</td><td align="center">FORMAT 盘符 参数</td><td align="center">格式化命令，可以完成对软盘和硬盘的格式化操作</td></tr><tr><td align="center">XCOPY</td><td align="center">XCOPY 源路径 源目录/文件名 目的目录/文件名 参数</td><td align="center">拷贝命令</td></tr><tr><td align="center">DELTREE</td><td align="center">DELTREE 盘符 路径</td><td align="center">删除目录树</td></tr></tbody></table><h2 id="CMD命令"><a href="#CMD命令" class="headerlink" title="CMD命令"></a>CMD命令</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows原工具</title>
       <link href="/posts/4184437706.html"/>
       <url>/posts/4184437706.html</url>
       
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="程序介绍"><a href="#程序介绍" class="headerlink" title="程序介绍"></a>程序介绍</h2><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/05/24/56220ae7eeb0f9b1.png"></p><p>1.程序由易语言编译开发</p><p>2.程序原理是调用Windows系统的工具</p><p>3.程序由开发的源码和程序成品已放在前言</p><h2 id="程序更新日志"><a href="#程序更新日志" class="headerlink" title="程序更新日志"></a>程序更新日志</h2><p>更新时间：2022.5.24</p><p>1.程序开发</p><p>2.程序发布</p><h2 id="程序下载"><a href="#程序下载" class="headerlink" title="程序下载"></a>程序下载</h2><h3 id="程序本体"><a href="#程序本体" class="headerlink" title="程序本体"></a>程序本体</h3><ul><li><a href="https://wwc.lanzoum.com/iYsrE05czjfc">V1.0.0.0</a></li></ul><h3 id="程序源码"><a href="#程序源码" class="headerlink" title="程序源码"></a>程序源码</h3><ul><li><a href="https://wwc.lanzoum.com/ic3d405czjgd">V1.0.0.0</a></li></ul><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>本程序开发不收取</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="程序介绍"><a href="#程序介绍" class="headerlink" title="程序介绍"></a>程序介绍</h2><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/05/24/56220ae7eeb0f9b1.png"></p><p>1.程序由易语言编译开发</p><p>2.程序原理是调用Windows系统的工具</p><p>3.程序由开发的源码和程序成品已放在前言</p><h2 id="程序更新日志"><a href="#程序更新日志" class="headerlink" title="程序更新日志"></a>程序更新日志</h2><p>更新时间：2022.5.24</p><p>1.程序开发</p><p>2.程序发布</p><h2 id="程序下载"><a href="#程序下载" class="headerlink" title="程序下载"></a>程序下载</h2><h3 id="程序本体"><a href="#程序本体" class="headerlink" title="程序本体"></a>程序本体</h3><ul><li><a href="https://wwc.lanzoum.com/iYsrE05czjfc">V1.0.0.0</a></li></ul><h3 id="程序源码"><a href="#程序源码" class="headerlink" title="程序源码"></a>程序源码</h3><ul><li><a href="https://wwc.lanzoum.com/ic3d405czjgd">V1.0.0.0</a></li></ul><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>本程序开发不易，如有问题欢迎在本贴评论里反馈，作者会尽力维护</p>]]></content>
       
       
       <categories>
