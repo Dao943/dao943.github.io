@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://dao943.top/posts/2221957461.html</loc>
+    
+    <lastmod>2022-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://dao943.top/posts/1218845165.html</loc>
     
     <lastmod>2022-05-31</lastmod>
@@ -117,7 +126,7 @@
   </url>
   
   <url>
-    <loc>http://dao943.top/tags/tools/</loc>
+    <loc>http://dao943.top/tags/Windows-%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2022-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -131,14 +140,14 @@
   </url>
   
   <url>
-    <loc>http://dao943.top/tags/Hexo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://dao943.top/tags/tools/</loc>
     <lastmod>2022-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://dao943.top/tags/Windows-%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://dao943.top/tags/Hexo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -158,6 +167,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://dao943.top/tags/%E4%BC%98%E5%8C%96%E4%B8%8E%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2022-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -168,14 +184,14 @@
   </url>
   
   <url>
-    <loc>http://dao943.top/categories/%E6%98%93%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>http://dao943.top/categories/Windows/</loc>
     <lastmod>2022-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://dao943.top/categories/Windows/</loc>
+    <loc>http://dao943.top/categories/%E6%98%93%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2022-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
