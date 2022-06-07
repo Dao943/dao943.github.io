@@ -5,12 +5,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Windows 优化与美化, Hong Dao">
-    <meta name="description" content="前言暂无
-优化暂无
-美化猫猫回收站
-下载链接
+    <meta name="description" content="前言Windows 优化美化基于10以上系统
+Windows 优化关闭系统更新（可选）禁用更新的优缺点
+优点
+系统资源占用小
+系统网速提升大
+减少突然更新带来的问题
 
-">
+缺点
+系统新功能不能使用
+系统漏洞不能及时修复，系统安全性低
+
+
+软件下">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -518,14 +525,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-05-31
+                    2022-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    19
+                    527
                 </div>
                 
 
@@ -552,9 +559,98 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>暂无</p>
-<h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><p>暂无</p>
-<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h3 id="猫猫回收站"><a href="#猫猫回收站" class="headerlink" title="猫猫回收站"></a>猫猫回收站</h3><ul>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Windows 优化美化基于10以上系统</p>
+<h2 id="Windows-优化"><a href="#Windows-优化" class="headerlink" title="Windows 优化"></a>Windows 优化</h2><h3 id="关闭系统更新（可选）"><a href="#关闭系统更新（可选）" class="headerlink" title="关闭系统更新（可选）"></a>关闭系统更新（可选）</h3><h4 id="禁用更新的优缺点"><a href="#禁用更新的优缺点" class="headerlink" title="禁用更新的优缺点"></a>禁用更新的优缺点</h4><ul>
+<li><p>优点</p>
+<p>系统资源占用小</p>
+<p>系统网速提升大</p>
+<p>减少突然更新带来的问题</p>
+</li>
+<li><p>缺点</p>
+<p>系统新功能不能使用</p>
+<p>系统漏洞不能及时修复，系统安全性低</p>
+</li>
+</ul>
+<h4 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://wwc.lanzoum.com/iFxzO0616lrc">Windows Update Blocker</a></li>
+</ul>
+<h3 id="关闭系统实时保护（可选）"><a href="#关闭系统实时保护（可选）" class="headerlink" title="关闭系统实时保护（可选）"></a>关闭系统实时保护（可选）</h3><p>Win+R 运行以下命令</p>
+<pre class=" language-复制"><code class="language-复制">gpedit.msc
+</code></pre>
+<p>如图所示 计算机配置—–管理模板—–Windows组件—-Microsoft Defender 防病毒—-双击打开</p>
+<p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/fd530fc941bcc3f3.png"></p>
+<p>勾选“已启用”选项，就可以关闭Windows defender</p>
+<p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/8e9457486af816f0.png"></p>
+<p>还是这个页面， 找到 <strong>实时保护</strong> 点进去，同样的操作</p>
+<p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/0fd9abceb7c0ed1a.png"></p>
+<p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/3e7b1c28523bc31a.png"></p>
+<h3 id="关闭用户账户控制（UAC）"><a href="#关闭用户账户控制（UAC）" class="headerlink" title="关闭用户账户控制（UAC）"></a>关闭用户账户控制（UAC）</h3><h4 id="为什么要关闭"><a href="#为什么要关闭" class="headerlink" title="为什么要关闭"></a>为什么要关闭</h4><p>关闭后打开任何软件和文件不会再弹出 UAC 提示</p>
+<p>Win+R 运行下面命令</p>
+<pre class=" language-复制"><code class="language-复制">msconfig
+</code></pre>
+<p>找到工具—-更改 UAC 设置—-启动—-拉到最低—-确定</p>
+<p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/e2410f7222a10355.png"></p>
+<h3 id="关闭-Windows-防火墙"><a href="#关闭-Windows-防火墙" class="headerlink" title="关闭 Windows 防火墙"></a>关闭 Windows 防火墙</h3><h4 id="关闭的优缺点"><a href="#关闭的优缺点" class="headerlink" title="关闭的优缺点"></a>关闭的优缺点</h4><ul>
+<li><p>优点</p>
+<p>不会出现游戏公屏以及语音频道的互通问题等等</p>
+</li>
+<li><p>缺点</p>
+<p>无法防止计算机病毒和蠕虫进入计算机</p>
+<p>系统不会询问是否允许或阻止某些连接请求</p>
+<p>无法阻止未授权的用户通过互联网对计算机的访问</p>
+<p>无法防止计算机内部信息的泄露</p>
+</li>
+</ul>
+<p>打开控制面板—-系统和安全—-Windows Defender 防火墙—-启动或关闭 Windows Defender—-全部关闭</p>
+<h3 id="关闭系统服务（可选）"><a href="#关闭系统服务（可选）" class="headerlink" title="关闭系统服务（可选）"></a>关闭系统服务（可选）</h3><p>Win+R 运行下面命令</p>
+<pre class=" language-复制"><code class="language-复制">services.msc
+</code></pre>
+<p>按照下表根据需要关闭</p>
+<table>
+<thead>
+<tr>
+<th align="center">服务名称</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Bluetooth Handsfree Service</td>
+<td align="center">没有蓝牙的用户可以关闭</td>
+</tr>
+<tr>
+<td align="center">Smart Card</td>
+<td align="center">管理计算机对智能卡的读取访问，没有安装UPS的用户可以禁用</td>
+</tr>
+<tr>
+<td align="center">Print Spooler</td>
+<td align="center">没装打印机可以禁止该服务</td>
+</tr>
+<tr>
+<td align="center">Security Center</td>
+<td align="center">Windows安全中心服务</td>
+</tr>
+<tr>
+<td align="center">Fax</td>
+<td align="center">传真资源发送和接收传真</td>
+</tr>
+<tr>
+<td align="center">Windows Backup</td>
+<td align="center">Windows 备份和还原功能</td>
+</tr>
+<tr>
+<td align="center">Windows Error Reporting Service</td>
+<td align="center">错误报告传送</td>
+</tr>
+<tr>
+<td align="center">Windows Update</td>
+<td align="center">系统自动更新</td>
+</tr>
+<tr>
+<td align="center">Windows Firewall</td>
+<td align="center">Windows 防火墙</td>
+</tr>
+</tbody></table>
+<h2 id="Windows-美化"><a href="#Windows-美化" class="headerlink" title="Windows 美化"></a>Windows 美化</h2><h3 id="猫猫回收站"><a href="#猫猫回收站" class="headerlink" title="猫猫回收站"></a>猫猫回收站</h3><ul>
 <li><a target="_blank" rel="noopener" href="https://wwc.lanzoum.com/iXftB05p0jaf">下载链接</a></li>
 </ul>
 
@@ -1198,7 +1294,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2k</span>
+                        class="white-color">3.2k</span>
             
             
             
