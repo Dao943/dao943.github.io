@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>小米手机优化</title>
+      <link href="/posts/2724310572.html"/>
+      <url>/posts/2724310572.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>优化环境</p><ul><li><p>设备：MI 10至尊纪念版</p></li><li><p>系统：MIUI 12.0.6.0 稳定版</p></li></ul><h2 id="广告篇"><a href="#广告篇" class="headerlink" title="广告篇"></a>广告篇</h2><h3 id="设置广告"><a href="#设置广告" class="headerlink" title="设置广告"></a>设置广告</h3><h2 id="省电篇"><a href="#省电篇" class="headerlink" title="省电篇"></a>省电篇</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小米 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小米手机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows 优化与美化</title>
       <link href="/posts/2221957461.html"/>
       <url>/posts/2221957461.html</url>
       
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Windows 优化美化基于10以上系统</p><h2 id="Windows-优化"><a href="#Windows-优化" class="headerlink" title="Windows 优化"></a>Windows 优化</h2><h3 id="关闭系统更新（可选）"><a href="#关闭系统更新（可选）" class="headerlink" title="关闭系统更新（可选）"></a>关闭系统更新（可选）</h3><h4 id="禁用更新的优缺点"><a href="#禁用更新的优缺点" class="headerlink" title="禁用更新的优缺点"></a>禁用更新的优缺点</h4><ul><li><p>优点</p><p>系统资源占用小</p><p>系统网速提升大</p><p>减少突然更新带来的问题</p></li><li><p>缺点</p><p>系统新功能不能使用</p><p>系统漏洞不能及时修复，系统安全性低</p></li></ul><h4 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h4><ul><li><a href="https://wwc.lanzoum.com/iFxzO0616lrc">Windows Update Blocker</a></li></ul><h3 id="关闭系统实时保护（可选）"><a href="#关闭系统实时保护（可选）" class="headerlink" title="关闭系统实时保护（可选）"></a>关闭系统实时保护（可选）</h3><p>Win+R 运行以下命令</p><pre class=" language-复制"><code class="language-复制">gpedit.msc</code></pre><p>如图所示 计算机配置—–管理模板—–Windows组件—-Microsoft Defender 防病毒—-双击打开</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/fd530fc941bcc3f3.png"></p><p>勾选“已启用”选项，就可以关闭Windows defender</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/8e9457486af816f0.png"></p><p>还是这个页面， 找到 <strong>实时保护</strong> 点进去，同样的操作</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/0fd9abceb7c0ed1a.png"></p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/3e7b1c28523bc31a.png"></p><h3 id="关闭用户账户控制（UAC）"><a href="#关闭用户账户控制（UAC）" class="headerlink" title="关闭用户账户控制（UAC）"></a>关闭用户账户控制（UAC）</h3><h4 id="为什么要关闭"><a href="#为什么要关闭" class="headerlink" title="为什么要关闭"></a>为什么要关闭</h4><p>关闭后打开任何软件和文件不会再弹出 UAC 提示</p><p>Win+R 运行下面命令</p><pre class=" language-复制"><code class="language-复制">msconfig</code></pre><p>找到工具—-更改 UAC 设置—-启动—-拉到最低—-确定</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/e2410f7222a10355.png"></p><h3 id="关闭-Windows-防火墙"><a href="#关闭-Windows-防火墙" class="headerlink" title="关闭 Windows 防火墙"></a>关闭 Windows 防火墙</h3><h4 id="关闭的优缺点"><a href="#关闭的优缺点" class="headerlink" title="关闭的优缺点"></a>关闭的优缺点</h4><ul><li><p>优点</p><p>不会出现游戏公屏以及语音频道的互通问题等等</p></li><li><p>缺点</p><p>无法防止计算机病毒和蠕虫进入计算机</p><p>系统不会询问是否允许或阻止某些连接请求</p><p>无法阻止未授权的用户通过互联网对计算机的访问</p><p>无法防止计算机内部信息的泄露</p></li></ul><p>打开控制面板—-系统和安全—-Windows Defender 防火墙—-启动或关闭 Windows Defender—-全部关闭</p><h3 id="关闭系统服务（可选）"><a href="#关闭系统服务（可选）" class="headerlink" title="关闭系统服务（可选）"></a>关闭系统服务（可选）</h3><p>Win+R 运行下面命令</p><pre class=" language-复制"><code class="language-复制">services.msc</code></pre><p>按照下表根据需要关闭</p><table><thead><tr><th align="center">服务名称</th><th align="center">说明</th></tr></thead><tbody><tr><td align="center">Bluetooth Handsfree Service</td><td align="center">没有蓝牙的用户可以关闭</td></tr><tr><td align="center">Smart Card</td><td align="center">管理计算机对智能卡的读取访问，没有安装UPS的用户可以禁用</td></tr><tr><td align="center">Print Spooler</td><td align="center">没装打印机可以禁止该服务</td></tr><tr><td align="center">Security Center</td><td align="center">Windows安全中心服务</td></tr><tr><td align="center">Fax</td><td align="center">传真资源发送和接收传真</td></tr><tr><td align="center">Windows Backup</td><td align="center">Windows 备份和还原功能</td></tr><tr><td align="center">Windows Error Reporting Service</td><td align="center">错误报告传送</td></tr><tr><td align="center">Windows Update</td><td align="center">系统自动更新</td></tr><tr><td align="center">Windows Firewall</td><td align="center">Windows 防火墙</td></tr></tbody></table><h2 id="Windows-美化"><a href="#Windows-美化" class="headerlink" title="Windows 美化"></a>Windows 美化</h2><h3 id="猫猫回收站"><a href="#猫猫回收站" class="headerlink" title="猫猫回收站"></a>猫猫回收站</h3><ul><li><a href="https://wwc.lanzoum.com/iXftB05p0jaf">下载链接</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Windows 优化美化基于10以上系统</p><h2 id="Windows-优化"><a href="#Windows-优化" class="headerlink" title="Windows 优化"></a>Windows 优化</h2><h3 id="关闭系统更新（可选）"><a href="#关闭系统更新（可选）" class="headerlink" title="关闭系统更新（可选）"></a>关闭系统更新（可选）</h3><h4 id="禁用更新的优缺点"><a href="#禁用更新的优缺点" class="headerlink" title="禁用更新的优缺点"></a>禁用更新的优缺点</h4><ul><li><p>优点</p><p>系统资源占用小</p><p>系统网速提升大</p><p>减少突然更新带来的问题</p></li><li><p>缺点</p><p>系统新功能不能使用</p><p>系统漏洞不能及时修复，系统安全性低</p></li></ul><h4 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h4><ul><li><a href="https://wwc.lanzoum.com/iFxzO0616lrc">Windows Update Blocker</a></li></ul><h3 id="关闭系统实时保护（可选）"><a href="#关闭系统实时保护（可选）" class="headerlink" title="关闭系统实时保护（可选）"></a>关闭系统实时保护（可选）</h3><p>Win+R 运行以下命令</p><pre class=" language-复制"><code class="language-复制">gpedit.msc</code></pre><p>如图所示 计算机配置—–管理模板—–Windows组件—-Microsoft Defender 防病毒—-双击打开</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/fd530fc941bcc3f3.png"></p><p>勾选“已启用”选项，就可以关闭Windows defender</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/8e9457486af816f0.png"></p><p>还是这个页面， 找到 <strong>实时保护</strong> 点进去，同样的操作</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/0fd9abceb7c0ed1a.png"></p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/3e7b1c28523bc31a.png"></p><h3 id="关闭用户账户控制（UAC）"><a href="#关闭用户账户控制（UAC）" class="headerlink" title="关闭用户账户控制（UAC）"></a>关闭用户账户控制（UAC）</h3><h4 id="为什么要关闭"><a href="#为什么要关闭" class="headerlink" title="为什么要关闭"></a>为什么要关闭</h4><p>关闭后打开任何软件和文件不会再弹出 UAC 提示</p><p>Win+R 运行下面命令</p><pre class=" language-复制"><code class="language-复制">msconfig</code></pre><p>找到工具—-更改 UAC 设置—-启动—-拉到最低—-确定</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/e2410f7222a10355.png"></p><h3 id="关闭-Windows-防火墙"><a href="#关闭-Windows-防火墙" class="headerlink" title="关闭 Windows 防火墙"></a>关闭 Windows 防火墙</h3><h4 id="关闭的优缺点"><a href="#关闭的优缺点" class="headerlink" title="关闭的优缺点"></a>关闭的优缺点</h4><ul><li><p>优点</p><p>不会出现游戏公屏以及语音频道的互通问题等等</p></li><li><p>缺点</p><p>无法防止计算机病毒和蠕虫进入计算机</p><p>系统不会询问是否允许或阻止某些连接请求</p><p>无法阻止未授权的用户通过互联网对计算机的访问</p><p>无法防止计算机内部信息的泄露</p></li></ul><p>打开控制面板—-系统和安全—-Windows Defender 防火墙—-启动或关闭 Windows Defender—-全部关闭</p><h3 id="关闭系统服务（可选）"><a href="#关闭系统服务（可选）" class="headerlink" title="关闭系统服务（可选）"></a>关闭系统服务（可选）</h3><p>Win+R 运行下面命令</p><pre class=" language-复制"><code class="language-复制">services.msc</code></pre><p>按照下表根据需要关闭</p><table><thead><tr><th align="center">服务名称</th><th align="center">说明</th></tr></thead><tbody><tr><td align="center">Bluetooth Handsfree Service</td><td align="center">没有蓝牙的用户可以关闭</td></tr><tr><td align="center">Smart Card</td><td align="center">管理计算机对智能卡的读取访问，没有安装UPS的用户可以禁用</td></tr><tr><td align="center">Print Spooler</td><td align="center">没装打印机可以禁止该服务</td></tr><tr><td align="center">Security Center</td><td align="center">Windows安全中心服务</td></tr><tr><td align="center">Fax</td><td align="center">传真资源发送和接收传真</td></tr><tr><td align="center">Windows Backup</td><td align="center">Windows 备份和还原功能</td></tr><tr><td align="center">Windows Error Reporting Service</td><td align="center">错误报告传送</td></tr><tr><td align="center">Windows Update</td><td align="center">系统自动更新</td></tr><tr><td align="center">Windows Firewall</td><td align="center">Windows 防火墙</td></tr></tbody></table><h2 id="Windows-美化"><a href="#Windows-美化" class="headerlink" title="Windows 美化"></a>Windows 美化</h2><h3 id="猫猫回收站"><a href="#猫猫回收站" class="headerlink" title="猫猫回收站"></a>猫猫回收站</h3><p>打开桌面图标设置</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/329b7b6b3be1e2b4.png"></p><p>选择回收站更换图标</p><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/07/2fea0955c59e550f.png"></p><h4 id="图标下载"><a href="#图标下载" class="headerlink" title="图标下载"></a>图标下载</h4><ul><li><a href="https://wwc.lanzoum.com/iXftB05p0jaf">下载链接</a></li></ul>]]></content>
       
       
       <categories>
@@ -104,11 +129,11 @@
     
     
     <entry>
-      <title>Windows 原工具</title>
+      <title>开发程序合集</title>
       <link href="/posts/4184437706.html"/>
       <url>/posts/4184437706.html</url>
       
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="程序介绍"><a href="#程序介绍" class="headerlink" title="程序介绍"></a>程序介绍</h2><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/05/24/56220ae7eeb0f9b1.png"></p><p>1.程序由易语言编译开发</p><p>2.程序原理是调用Windows系统的工具</p><p>3.程序开发的源码和程序成品已公开</p><h2 id="程序更新日志"><a href="#程序更新日志" class="headerlink" title="程序更新日志"></a>程序更新日志</h2><p>更新时间：2022.5.24</p><p>1.程序开发</p><p>2.程序发布</p><h2 id="程序下载"><a href="#程序下载" class="headerlink" title="程序下载"></a>程序下载</h2><h3 id="程序本体"><a href="#程序本体" class="headerlink" title="程序本体"></a>程序本体</h3><ul><li><a href="https://wwc.lanzoum.com/iYsrE05czjfc">V1.0.0.0</a></li></ul><h3 id="程序源码"><a href="#程序源码" class="headerlink" title="程序源码"></a>程序源码</h3><ul><li><a href="https://wwc.lanzoum.com/ic3d405czjgd">V1.0.0.0</a></li></ul><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>本程序开发不易，如有问题欢迎在本贴评论里反馈，作者会尽力维护</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li>所有程序由易语言编译开发</li><li>程序所有的源代码以公开可下载</li></ul><h2 id="Windows-原工具"><a href="#Windows-原工具" class="headerlink" title="Windows 原工具"></a>Windows 原工具</h2><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/05/24/56220ae7eeb0f9b1.png"></p><h3 id="程序更新日志"><a href="#程序更新日志" class="headerlink" title="程序更新日志"></a>程序更新日志</h3><p>更新时间：2022.5.24</p><p>1.程序开发</p><p>2.程序发布</p><h3 id="程序下载"><a href="#程序下载" class="headerlink" title="程序下载"></a>程序下载</h3><ul><li><a href="https://wwc.lanzoum.com/iYsrE05czjfc">V1.0.0.0</a></li></ul><h3 id="程序源码"><a href="#程序源码" class="headerlink" title="程序源码"></a>程序源码</h3><ul><li><a href="https://wwc.lanzoum.com/ic3d405czjgd">V1.0.0.0</a></li></ul><h2 id="通信测试"><a href="#通信测试" class="headerlink" title="通信测试"></a>通信测试</h2><p><img src="/medias/loading.gif" data-original="https://s3.bmp.ovh/imgs/2022/06/11/7099cf6722bc110d.png"></p><h3 id="程序更新日志-1"><a href="#程序更新日志-1" class="headerlink" title="程序更新日志"></a>程序更新日志</h3><p>更新时间：2022.6.11</p><p>1.程序开发</p><p>2.程序发布</p><h3 id="程序下载-1"><a href="#程序下载-1" class="headerlink" title="程序下载"></a>程序下载</h3><ul><li><a href="https://wwc.lanzoum.com/ifQvs0699qri">V1.0.0.0</a></li></ul><h3 id="程序源码-1"><a href="#程序源码-1" class="headerlink" title="程序源码"></a>程序源码</h3><ul><li><a href="https://wwc.lanzoum.com/iVObv0699ouj">V1.0.0.0</a></li></ul><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>本程序开发不易，如有问题欢迎在本贴评论里反馈，作者会尽力维护</p>]]></content>
       
       
       <categories>
@@ -120,7 +145,7 @@
       
         <tags>
             
-            <tag> tools </tag>
+            <tag> 合集 </tag>
             
         </tags>
       
