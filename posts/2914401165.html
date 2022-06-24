@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo 写文章基本语法, Hong Dao">
+    <meta name="keywords" content="Hexo 文章写作与发布, Hong Dao">
     <meta name="description" content="前言
 Typora
 
@@ -31,7 +31,7 @@ Typora
 
     
 
-    <title>Hexo 写文章基本语法 | Hong Dao</title>
+    <title>Hexo 文章写作与发布 | Hong Dao</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -374,7 +374,7 @@ Typora
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo 写文章基本语法</h1>
+                    <h1 class="description center-align post-title">Hexo 文章写作与发布</h1>
                 </div>
             </div>
         </div>
@@ -493,8 +493,8 @@ Typora
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo-%E5%86%99%E6%96%87%E7%AB%A0/">
-                                <span class="chip bg-color">Hexo 写文章</span>
+                            <a href="/tags/Hexo-%E6%96%87%E7%AB%A0/">
+                                <span class="chip bg-color">Hexo 文章</span>
                             </a>
                         
                     </div>
@@ -525,21 +525,21 @@ Typora
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-05-22
+                    2022-06-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    205
+                    723
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -589,15 +589,100 @@ Typora
 <p>2.手动创建</p>
 <p>在博客目录\source_posts文件夹里，右键新建md后缀的文件，例如：文章名称.md</p>
 <h2 id="第三部分-文章基本语法"><a href="#第三部分-文章基本语法" class="headerlink" title="第三部分 文章基本语法"></a>第三部分 文章基本语法</h2><ul>
-<li><p><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/">Markdown 基本语法</a></p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://markdown.com.cn/extended-syntax/">Markdown 扩展语法</a></p>
-</li>
+<li><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/">Markdown 基本语法</a></li>
+<li><a target="_blank" rel="noopener" href="https://markdown.com.cn/extended-syntax/">Markdown 扩展语法</a></li>
 </ul>
-<h2 id="第四部分-语法结束语"><a href="#第四部分-语法结束语" class="headerlink" title="第四部分 语法结束语"></a>第四部分 语法结束语</h2><ul>
-<li>以上就是Hexo写文章的基本语法，另文章前言有扩展语法</li>
+<h2 id="第四部分-文章-Front-matter"><a href="#第四部分-文章-Front-matter" class="headerlink" title="第四部分 文章 Front-matter"></a>第四部分 文章 Front-matter</h2><p>了解Front-matter ，就是文章最上方分隔的区域，以下是定义参数	</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>配置选项</strong></th>
+<th align="center"><strong>默认值</strong></th>
+<th align="center"><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">title</td>
+<td align="center">Markdown 的文件标题</td>
+<td align="center">文章标题，强烈建议填写此选项</td>
+</tr>
+<tr>
+<td align="center">date</td>
+<td align="center">文件创建时的日期时间</td>
+<td align="center">发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
+</tr>
+<tr>
+<td align="center">author</td>
+<td align="center">根 _config.yml 中的 author</td>
+<td align="center">文章作者</td>
+</tr>
+<tr>
+<td align="center">img</td>
+<td align="center">featureImages 中的某个值</td>
+<td align="center">文章特征图，推荐使用图床</td>
+</tr>
+<tr>
+<td align="center">top</td>
+<td align="center">true</td>
+<td align="center">推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章</td>
+</tr>
+<tr>
+<td align="center">cover</td>
+<td align="center">false</td>
+<td align="center">表示该文章是否需要加入到首页轮播封面中</td>
+</tr>
+<tr>
+<td align="center">coverImg</td>
+<td align="center">无</td>
+<td align="center">表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td>
+</tr>
+<tr>
+<td align="center">password</td>
+<td align="center">无</td>
+<td align="center">文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项</td>
+</tr>
+<tr>
+<td align="center">toc</td>
+<td align="center">true</td>
+<td align="center">是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项</td>
+</tr>
+<tr>
+<td align="center">mathjax</td>
+<td align="center">false</td>
+<td align="center">是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行</td>
+</tr>
+<tr>
+<td align="center">summary</td>
+<td align="center">无</td>
+<td align="center">文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td>
+</tr>
+<tr>
+<td align="center">categories</td>
+<td align="center">无</td>
+<td align="center">文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
+</tr>
+<tr>
+<td align="center">tags</td>
+<td align="center">无</td>
+<td align="center">文章标签，一篇文章可以多个标签</td>
+</tr>
+<tr>
+<td align="center">reprintPolicy</td>
+<td align="center">cc_by</td>
+<td align="center">文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
+</tr>
+</tbody></table>
+<h3 id="1-清除本地缓存"><a href="#1-清除本地缓存" class="headerlink" title="1.清除本地缓存"></a>1.清除本地缓存</h3><pre class=" language-复制"><code class="language-复制">hexo clean
+</code></pre>
+<h3 id="2-生成静态html文件"><a href="#2-生成静态html文件" class="headerlink" title="2.生成静态html文件"></a>2.生成静态html文件</h3><pre class=" language-复制"><code class="language-复制">hexo g
+</code></pre>
+<h3 id="3-部署到-GitHub"><a href="#3-部署到-GitHub" class="headerlink" title="3.部署到 GitHub"></a>3.部署到 GitHub</h3><pre class=" language-复制"><code class="language-复制">hexo d
+</code></pre>
+<pre class=" language-复制"><code class="language-复制">hexo s #可以在本地查看预览效果 浏览器打开 http://localhost:4000/
+</code></pre>
+<h2 id="第五部分-结束语"><a href="#第五部分-结束语" class="headerlink" title="第五部分 结束语"></a>第五部分 结束语</h2><ul>
+<li>以上就是Hexo写文章与发布文章</li>
 </ul>
-<p>	</p>
 
                 
             </div>
@@ -662,8 +747,8 @@ Typora
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo-%E5%86%99%E6%96%87%E7%AB%A0/">
-                                    <span class="chip bg-color">Hexo 写文章</span>
+                                <a href="/tags/Hexo-%E6%96%87%E7%AB%A0/">
+                                    <span class="chip bg-color">Hexo 文章</span>
                                 </a>
                             
                         </div>
@@ -981,12 +1066,12 @@ Typora
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/2652169898.html">
+                <a href="/posts/4184437706.html">
                     <div class="card-image">
                         
-                        <img src="https://s3.bmp.ovh/imgs/2022/05/21/be5039a5f4f969cb.jpg" class="responsive-img" alt="Hexo 发布文章">
+                        <img src="https://s3.bmp.ovh/imgs/2022/05/18/2d9429a2df5f17c1.jpg" class="responsive-img" alt="开发程序合集">
                         
-                        <span class="card-title">Hexo 发布文章</span>
+                        <span class="card-title">开发程序合集</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -997,14 +1082,14 @@ Typora
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-22
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-24
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo/" class="post-category">
-                                    Hexo
+                            <a href="/categories/%E6%98%93%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E9%A1%B9%E7%9B%AE/" class="post-category">
+                                    易语言开发项目
                                 </a>
                             
                             
@@ -1014,8 +1099,8 @@ Typora
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/">
-                        <span class="chip bg-color">Hexo 发布文章</span>
+                    <a href="/tags/%E5%90%88%E9%9B%86/">
+                        <span class="chip bg-color">合集</span>
                     </a>
                     
                 </div>
@@ -1237,7 +1322,7 @@ Typora
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">3.3k</span>
+                        class="white-color">3.9k</span>
             
             
             
