@@ -16,6 +16,10 @@ password: 1d002a59e92214c43c231696b8b30fdf6b07911512681d1515c67759faf3af32
 
 @@##V1.0.0.1##@@
 
+## 更新地址
+
+@@￥￥@http://ys-j.ysepan.com/620056920/318872571/t346L625I8L3KSK6VfH3b/My%20tools.zip@￥￥@@
+
 ## 用户记录
 
 
