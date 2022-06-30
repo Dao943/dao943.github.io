@@ -18,7 +18,7 @@ password: 1d002a59e92214c43c231696b8b30fdf6b07911512681d1515c67759faf3af32
 
 ## 更新地址
 
-@A@https://link.jscdn.cn/lanzou/aHR0cHM6Ly93d2MubGFuem91bS5jb20vaWtUUnkwNzV2NHJh.zip@A@
+@A@https://gitee.com/dao943/my-tools/raw/master/My%20tools.zip@A@
 
 ## 用户记录
 
